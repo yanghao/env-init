@@ -1,0 +1,6 @@
+Before running the script, below steps are mandatory and need to
+be executed manually:
+
+0. Add proxy settings in /etc/apt/apt.conf
+1. sudo apt-get update
+2. sudo apt-get upgrade
