@@ -1,2 +1,5 @@
 vim
 git
+compizconfig-settings-manager
+ctags
+cscope

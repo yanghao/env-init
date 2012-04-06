@@ -3,8 +3,7 @@ import sys
 from handle_error import CommandException
 
 do_list = [
-    'get_config',
-    'init_env',
+    'init_package',
 ]
 
 n = 0
