@@ -1,6 +1,2 @@
-vim
-git
-compizconfig-settings-manager
-ctags
-cscope
-gitk
+dev.txt
+ubuntu.txt

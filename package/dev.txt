@@ -1,0 +1,6 @@
+vim
+git
+ctags
+cscope
+gitk
+

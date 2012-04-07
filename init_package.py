@@ -1,12 +1,22 @@
+PBASE = "package"
+
 def do():
     fd = open("package.txt")
-    package = fd.readlines()
+    files = fd.readlines()
     fd.close()
 
     cmd = "apt-get install -y "
 
-    for p in package:
-	cmd = cmd + p.strip() + ' '
+    for p in files:
+        p = p.strip()
+        if p:
+            fd = open(PBASE + '/' + p)
+            packages = fd.readlines()
+            fd.close()
+            for package in packages:
+                    cmd = cmd + package.strip() + ' '
+        else:
+            continue
 
     from commands import getstatusoutput as getso
 
