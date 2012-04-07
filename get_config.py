@@ -3,9 +3,7 @@ from os.path import join as pjoin
 from handle_error import handle
 from commands import getstatusoutput as getso
 
-HOME = os.environ['HOME']
-CONFIG = 'env_config'
-BASE = pjoin(HOME, CONFIG)
+from config import HOME, CONFIG, BASE, ENV_URL
 
 def check_dir():
     import os
@@ -16,7 +14,7 @@ def check_dir():
         return
 
 def clone_config():
-    s,o = getso("git clone ssh://xiytw007/home/hua/git_dev/config ~/env_config")
+    s,o = getso("git clone %s %s" % (ENV_URL, BASE))
     handle(s,o)
 
 def do():

@@ -1,10 +1,7 @@
 import os
 from os.path import join as pjoin
 
-HOME = os.environ['HOME']
-CONFIG = 'env_config'
-
-BASE = os.path.join(HOME, CONFIG)
+from config import HOME, BASE, CONFIG, ENV_URL
 
 def setup_bash():
     fd = open(pjoin(HOME, '.bashrc'), 'a')
