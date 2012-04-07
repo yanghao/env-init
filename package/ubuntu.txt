@@ -1,3 +1,7 @@
 compizconfig-settings-manager
 vinagre
 indicator-multiload
+fcitx
+fcitx-table-wubi
+fcitx-table-wbpy
+fcitx-tools
