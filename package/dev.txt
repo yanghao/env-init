@@ -10,3 +10,4 @@ openssh-server
 libncurses5
 libncurses5-dev
 ia32-libs
+scons
