@@ -3,3 +3,4 @@ git
 compizconfig-settings-manager
 ctags
 cscope
+gitk
