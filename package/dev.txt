@@ -4,3 +4,4 @@ ctags
 cscope
 gitk
 python3
+u-boot-tools

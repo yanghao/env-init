@@ -24,8 +24,12 @@ def setup_vim():
 def setup_git():
     os.symlink(pjoin(BASE, 'gitconfig'), pjoin(HOME, '.gitconfig'))
 
+def setup_bin():
+    os.symlink(pjoin(BASE, 'bin'), pjoin(HOME, 'bin_script'))
+
 def do():
     setup_dircolor()
     setup_bash()
     setup_vim()
     setup_git()
+    setup_bin()
