@@ -5,3 +5,5 @@ cscope
 gitk
 python3
 u-boot-tools
+minicom
+openssh-server
