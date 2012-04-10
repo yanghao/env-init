@@ -5,3 +5,4 @@ fcitx
 fcitx-table-wubi
 fcitx-table-wbpy
 fcitx-tools
+bmon
