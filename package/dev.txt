@@ -13,3 +13,6 @@ ia32-libs
 scons
 qemu
 qemu-system
+ccache
+distcc
+distccmon-gnome
