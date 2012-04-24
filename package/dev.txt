@@ -20,3 +20,4 @@ zlib1g
 zlib1g-dev
 libglib2.0-0
 libglib2.0-dev
+texinfo
