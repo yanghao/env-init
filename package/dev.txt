@@ -21,3 +21,4 @@ zlib1g-dev
 libglib2.0-0
 libglib2.0-dev
 texinfo
+python-py
