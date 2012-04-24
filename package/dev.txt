@@ -22,3 +22,6 @@ libglib2.0-0
 libglib2.0-dev
 texinfo
 python-py
+gplcver
+iverilog
+ghdl
