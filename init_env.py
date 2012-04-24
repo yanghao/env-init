@@ -22,7 +22,7 @@ def setup_git():
     os.symlink(pjoin(BASE, 'gitconfig'), pjoin(HOME, '.gitconfig'))
 
 def setup_bin():
-    os.symlink(pjoin(BASE, 'bin'), pjoin(HOME, 'bin_script'))
+    os.symlink(pjoin(BASE, 'bin_script'), pjoin(HOME, 'bin'))
 
 def do():
     setup_dircolor()
