@@ -6,3 +6,4 @@ fcitx-table-wubi
 fcitx-table-wbpy
 fcitx-tools
 bmon
+dconf-tools
