@@ -31,3 +31,4 @@ libirxtx-java
 sqlite3
 sqlitebrowser
 python-storm
+python-mysqldb
