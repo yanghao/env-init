@@ -27,3 +27,4 @@ gplcver
 iverilog
 ghdl
 clang
+libirxtx-java
