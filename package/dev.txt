@@ -32,3 +32,4 @@ sqlite3
 sqlitebrowser
 python-storm
 python-mysqldb
+python-pip
