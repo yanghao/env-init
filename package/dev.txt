@@ -33,3 +33,4 @@ sqlitebrowser
 python-storm
 python-mysqldb
 python-pip
+bmon
