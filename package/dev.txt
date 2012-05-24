@@ -25,9 +25,8 @@ texinfo
 python-py
 gplcver
 iverilog
-ghdl
 clang
-libirxtx-java
+librxtx-java
 sqlite3
 sqlitebrowser
 python-storm
