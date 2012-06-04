@@ -7,3 +7,4 @@ fcitx-table-wbpy
 fcitx-tools
 dconf-tools
 distccmon-gnome
+sqlitebrowser
