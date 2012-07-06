@@ -29,3 +29,6 @@ bmon
 nfs-common
 python-yaml
 python3-yaml
+bison
+flex
+gettext

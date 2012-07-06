@@ -3,3 +3,5 @@ gplcver
 iverilog
 clang
 librxtx-java
+linux-tools
+screen
