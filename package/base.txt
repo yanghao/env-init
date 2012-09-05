@@ -32,3 +32,4 @@ python3-yaml
 bison
 flex
 gettext
+smbfs
